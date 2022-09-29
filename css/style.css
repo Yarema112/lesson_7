@@ -1,0 +1,40 @@
+.wraper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block-text1 {
+	font-style: oblique;
+	font-size: 10px;
+	text-transform: capitalize;
+	text-decoration: line-through;
+	color: green;
+	border: solid;
+	margin: 20px;
+	border-radius: 100px 30px 100px 30px;
+	padding: 20px;
+	background-color: #ffa87d;
+}
+.picture{
+	height: 250px; 
+	background: url("../imeg/shit.jpg") 130px bottom no-repeat, url("../imeg/pic.jpg") 0 bottom / 200px auto no-repeat ;
+	
+}
+.table{
+	background-color: #b4afaf;
+}
+.knopka{
+	display: inline-block;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 3.8;
+	margin: 50px;
+	height: 100px;
+	width: 100px;
+	/* border: solid; */
+	border-radius: 50%;
+	color: white;
+	background-color: red;
+	box-shadow: 0px 0 20px #c53737, inset 0px 0px 20px #000000, 10px 10px 0px #555353;
+}
